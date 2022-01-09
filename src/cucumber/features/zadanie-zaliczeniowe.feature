@@ -9,5 +9,5 @@ Feature: Create new address
     And save address data
     Then New account registered on https://mystore-testlab.coderslab.pl/index.php?controller=addresses website
     Examples:
-      |alias|company              |vatNumber |address               |addressComplement      |zipCode|city   |country       |phone     |
+      |alias|company              |vatNumber |address               |addressComplement      |zipCode|city    |country       |phone    |
       |alias| Phalange Corporation|257392877 |Central Perk Coffee   | Central Perk Coffee   | 07-481|New York|United Kingdom|879432760|

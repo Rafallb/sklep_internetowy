@@ -13,7 +13,7 @@ import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class zaliczeniesteps<saveAddress> {
+public class zaliczeniesteps {
     private WebDriver driver;
     private Wypelniapole wypelniapole;
 
@@ -48,9 +48,9 @@ public class zaliczeniesteps<saveAddress> {
     }
 
     @And("^clicks on the option Create new address$")
-    public void createAddress() {
-        WebElement createAddress = driver.findElement(By.xpath("/html/body/main/section/div/div/section/section/div[3]/a/span"));
-        createAddress.click();
+    public void CreateAddress() {
+    WebElement address2 = driver.findElement(By.xpath("/html/body/main/section/div/div/section/section/div[3]/a/span"));
+    address2.click();
     }
 
     @And("^New address form filled out and save (.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*)$")

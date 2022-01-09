@@ -27,6 +27,7 @@ public class Wypelniapole {
     @FindBy(xpath = "//button[contains(@class, 'btn-primary')]")
     private WebElement saveAddress;
 
+
     public Wypelniapole(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
